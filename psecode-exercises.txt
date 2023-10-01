@@ -1,0 +1,44 @@
+// Exercise 1: Calculate the sum of Two Numbers
+
+1. display "first number"
+2. input first number from user and store as num1
+3. display "second number"
+4. input second number from user and store as num2
+5. add num1 and num2 together and store as sum
+6. display sum
+
+// Exercise 2: Check if a Number is Even or Odd
+
+1. input number
+2. remainder = n % 2
+3. IF remainder is not equal to 0
+4. answer = odd
+5. ELSE.
+6. answer = even 
+7. display answer
+
+// Exercise 3:
+Write pseudocode that will perform the following:
+
+a) Read in 5 seperate numbers.
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five
+entered numbers
+d) Write out the results found from steps b and c with a message
+describing what they are
+
+1. input n1,n2, n3, n4, n5
+2. avg = (n1+n2+n3+n4+n5)/5
+3. small = n1
+4. large = n1
+5. for i = 2 to 5:
+6. 	if n1>ni then:
+7.		small = ni
+8.	if n1<ni then:
+9.		large = ni
+10.print("Average:", avg)
+11.print("Smallest:", small)
+12.print("Largest:", large)
+
+-- End --
+
